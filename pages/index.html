@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>sketch</title>
+		<link rel="stylesheet" href="https://unpkg.com/blocks.css/dist/blocks.min.css" />
+		<script src="/socket.io/socket.io.js"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css"/>
+		<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+		<script src="../script.js" defer></script>
+	</head>
+	<body style="display:flex;text-align:center;flex-direction:column;overflow:hidden;">
+		<h1>sketch</h1>
+		<p>Hi! This is a online sketcher where you can sketch and everyone can see it all live! You can clear the board for everyone and even have rooms with <code>?my-room</code>.</p>
+		<div style="width:50%;display:flex;flex-direction:row;margin:auto;margin-bottom:20px;"> 
+			<button style="color:green;margin:auto;" id="save">Save To Computer</button>
+			<button style="color:red;margin:auto;" id="clear">Clear</button>
+		</div>
+		<div style="height:500px;width:500px;margin:auto;" class="block fixed" id="canvas">
+		</div>
+	</body>
+</html>
