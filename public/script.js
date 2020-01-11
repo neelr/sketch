@@ -1,3 +1,4 @@
+document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
 var socket = io();
 socket.on("newLine", data => {
 	console.log("hi")

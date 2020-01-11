@@ -8,14 +8,17 @@
 		<script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
 		<script src="../script.js" defer></script>
 	</head>
-	<body style="display:flex;text-align:center;flex-direction:column;overflow:hidden;">
+	<body style="display:flex;text-align:center;flex-direction:column;height:100%">
 		<h1>sketch</h1>
-		<p>Hi! This is a online sketcher where you can sketch and everyone can see it all live! You can clear the board for everyone and even have rooms with <code>?my-room</code>.</p>
+		<p>Hi! This is a online sketcher where you can sketch and everyone can see it all live! You can clear the board for everyone and even have rooms with <code>?my-room</code> at the end of the url!</p>
 		<div style="width:50%;display:flex;flex-direction:row;margin:auto;margin-bottom:20px;"> 
 			<button style="color:green;margin:auto;" id="save">Save To Computer</button>
 			<button style="color:red;margin:auto;" id="clear">Clear</button>
 		</div>
 		<div style="height:500px;width:500px;margin:auto;" class="block fixed" id="canvas">
 		</div>
+    <footer style="margin-top:10px;">
+    Made with 💖 by <a href="https://github.com/neelr">@neelr</a>
+    </footer>
 	</body>
 </html>
